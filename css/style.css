@@ -5,8 +5,21 @@ header {
     height: 700px;
 }
 
-.nav {
-    height: 100px;
+a {
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.bright-text {
+    color: white;
+}
+
+.btn-main {
+    background-color: orange;
+    border-radius: 50px;
+    border: 0px;
+    padding: 0.5rem 1rem;
+    color: white;
 }
 
 .col {
