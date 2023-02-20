@@ -1,0 +1,56 @@
+header {
+    background-image: url(../images/1-hero-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.nav {
+    height: 100px;
+}
+
+.col {
+    border: 2px dashed black;
+    height: 100px;
+}
+
+.jumbo {
+    height: 600px;
+}
+
+.presentation {
+    height: 500px;
+}
+
+.services {
+    height: 500px;
+    background-image: url(../images/pattern_background.png);
+    background-size: cover;
+    background-color: blue;
+}
+
+.work {
+    height: 500px;
+}
+
+.plans {
+    height: 500px;
+    background-image: url(../images/background1.jpg);
+}
+
+.news {
+    height: 500px;
+}
+
+.feedback {
+    height: 600px;
+}
+
+.contact {
+    height: 300px;
+    background-image: url(../images/CTA-seo-1.jpg);
+}
+
+footer {
+    height: 300px;
+}
