@@ -1,8 +1,11 @@
+body {
+    height: 100vh;
+}
+
 header {
     background-image: url(../images/1-hero-image.png);
     background-size: cover;
     background-position: center;
-    height: 700px;
 }
 
 a {
@@ -22,9 +25,9 @@ a {
     color: white;
 }
 
-.col {
-    border: 2px dashed black;
-    height: 100px;
+.main-icon {
+    color: orange;
+    font-size: 2rem;
 }
 
 .jumbo {
@@ -32,7 +35,12 @@ a {
 }
 
 .presentation {
-    height: 500px;
+    text-align: center;
+    background-color: #F7F8F9;
+}
+
+.pres-col {
+    background-color: white;
 }
 
 .services {
