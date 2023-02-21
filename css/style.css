@@ -110,7 +110,9 @@ a {
 
 .contact {
     background-image: url(../images/CTA-seo-1.jpg);
+    background-size: cover;
     text-align: center;
+    filter: grayscale(80%);
 }
 
 footer {
@@ -121,4 +123,9 @@ footer {
     border-radius: 50%;
     width: 18px;
     height: 18px;
+}
+
+.foot-icon {
+    font-size: 2rem;
+    margin: 0 1rem;
 }
