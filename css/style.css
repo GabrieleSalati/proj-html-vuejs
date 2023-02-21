@@ -26,6 +26,14 @@ a {
     font-size: 0.8rem;
 }
 
+.btn-alt {
+    background-color: white;
+    border-radius: 50px;
+    padding: 0.8rem 1.8rem;
+    font-size: 0.8rem;
+    border: 2px solid black;
+}
+
 .main-icon {
     color: orange;
     font-size: 2rem;
