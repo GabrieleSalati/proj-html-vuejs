@@ -104,6 +104,10 @@ a {
     text-align: center;
 }
 
+.testimonial {
+    border-radius: 50%;
+}
+
 .contact {
     background-image: url(../images/CTA-seo-1.jpg);
     text-align: center;
@@ -111,4 +115,10 @@ a {
 
 footer {
     text-align: center;
+}
+
+.selector {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
 }
