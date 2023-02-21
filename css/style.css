@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -21,8 +22,9 @@ a {
     background-color: orange;
     border-radius: 50px;
     border: 0px;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1.8rem;
     color: white;
+    font-size: 0.8rem;
 }
 
 .main-icon {
@@ -30,9 +32,7 @@ a {
     font-size: 2rem;
 }
 
-.jumbo {
-    height: 600px;
-}
+.jumbo {}
 
 .presentation {
     text-align: center;
@@ -55,12 +55,10 @@ a {
 }
 
 .work {
-    height: 500px;
     text-align: center;
 }
 
 .plans {
-    height: 500px;
     background-image: url(../images/background1.jpg);
     text-align: center;
 }
@@ -75,17 +73,14 @@ a {
 }
 
 .feedback {
-    height: 600px;
     text-align: center;
 }
 
 .contact {
-    height: 300px;
     background-image: url(../images/CTA-seo-1.jpg);
     text-align: center;
 }
 
 footer {
-    height: 300px;
     text-align: center;
 }
