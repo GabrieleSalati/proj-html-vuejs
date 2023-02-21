@@ -62,6 +62,11 @@ a {
 .plans {
     height: 500px;
     background-image: url(../images/background1.jpg);
+    text-align: center;
+}
+
+.plan-col {
+    background-color: white;
 }
 
 .news {
