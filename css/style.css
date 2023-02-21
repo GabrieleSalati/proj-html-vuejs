@@ -1,5 +1,4 @@
 body {
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -47,7 +46,20 @@ a {
     background-image: url(../images/pattern_background.png);
     background-size: cover;
     background-color: #001061;
+    background-position: center;
     text-align: center;
+}
+
+.serv-link {
+    color: #FFA737;
+    vertical-align: middle;
+}
+
+.fa-chevron-right {
+    color: #FFA737;
+    font-size: 0.6rem;
+    vertical-align: middle;
+    margin-left: 5px;
 }
 
 .serv-col {
