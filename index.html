@@ -49,12 +49,7 @@
                     <div class="col col-3 d-flex align-items-center"><img src="./images/logo_seo_w_1x.png" alt="logo">
                     </div>
                     <div class="col col-9 d-flex align-items-center justify-content-center">
-                        <a class="bright-text" href="#">Home</a>
-                        <a class="bright-text" href="#">Who we are</a>
-                        <a class="bright-text" href="#">What we do</a>
-                        <a class="bright-text" href="#">Where we work</a>
-                        <a class="bright-text" href="#">Careers</a>
-                        <a class="bright-text" href="#">News</a>
+                        <a v-for="link in head_links" class="bright-text" href="#">{{link}}</a>
                         <input class="btn-main ms-3" type="button" value="Get in touch now">
                     </div>
                 </div>
@@ -196,7 +191,9 @@
                     <div class="row justify-content-center">
                         <div class="plan-col col-2 mx-3 my-3 py-3">
                             <h3 class="my-3">Standard</h3>
-                            <div></div>
+                            <div>
+
+                            </div>
                             <p class="py-3">5 projects</p>
                             <p class="py-3">5 GB Storage</p>
                             <p class="py-3">Unlimited users</p>
@@ -305,13 +302,7 @@
             <div class="container py-5">
                 <div class="py-5"><img src="./images/logo_seo_1x.png" alt="logo"></div>
                 <div class="pb-5">
-                    <a href="#">Home</a>
-                    <a href="#">Home</a>
-                    <a href="#">Home</a>
-                    <a href="#">Home</a>
-                    <a href="#">Home</a>
-                    <a href="#">Home</a>
-                    <a href="#">Home</a>
+                    <a v-for="link in bot_links" href="#">{{link}}</a>
                 </div>
                 <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, possimus?</p>
                 <div>
