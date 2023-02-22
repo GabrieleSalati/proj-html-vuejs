@@ -9,8 +9,16 @@ a {
     margin: 0 1rem;
 }
 
+a:hover {
+    color: #FFA737;
+}
+
 .bright-text {
     color: white;
+}
+
+.dark-text {
+    color: black;
 }
 
 .colored-text {
@@ -26,6 +34,10 @@ a {
     font-size: 0.8rem;
 }
 
+.btn-main:hover {
+    background-color: #556EED;
+}
+
 .btn-alt {
     background-color: white;
     border-radius: 50px;
@@ -34,9 +46,19 @@ a {
     border: 2px solid black;
 }
 
+.btn-alt:hover {
+    background-color: #FFA737;
+    border: 2px solid #FFA737;
+    color: white;
+}
+
 .main-icon {
     color: #FFA737;
     font-size: 2rem;
+}
+
+.hover-title:hover {
+    color: #FFA737;
 }
 
 /* GENERAL */
@@ -103,6 +125,10 @@ header {
     background-color: white;
 }
 
+.plan:hover {
+    color: #607AFE;
+}
+
 /* NEWS STYLE */
 
 .news {
@@ -128,6 +154,7 @@ header {
     border-radius: 50%;
     width: 18px;
     height: 18px;
+    background-color: white;
 }
 
 /* CONTACT STYLE */
