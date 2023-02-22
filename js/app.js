@@ -15,6 +15,9 @@ createApp({
     },
 
     methods: {
+
+        // BACK TO TOP FUNCTION
+
         back_to_top() {
             document.documentElement.scrollTop = 0;
         }
