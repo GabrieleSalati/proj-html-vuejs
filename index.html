@@ -298,15 +298,16 @@
             <!-- FEEDBACKS -->
 
             <section class="feedback py-5">
-                <div class="container py-3">
+                <div class=" container
+                    py-3">
                     <h2 class="pb-5">What Our Clients Say</h2>
-                    <img class="testimonial" src="./images/testimonials-2.jpg" alt="testimonial">
-                    <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur velit repellendus
-                        sed <br> qui
-                        nesciunt incidunt?</p>
-                    <h4>Luis Desalvo, CREO Tech</h4>
-                    <input class="selector mx-1 my-5" type="button" value="">
-                    <input class="selector mx-1 my-5" type="button" value="">
+                    <div class="container">
+                        <img class="testimonial" :src="slides[activeSlide].image" alt="testimonial">
+                        <p class="py-4">{{slides[activeSlide].text}}</p>
+                        <h4>{{slides[activeSlide].name}}</h4>
+                    </div>
+                    <button class="selector mx-1 my-5" @click="previous()"></button>
+                    <button class="selector mx-1 my-5" @click="next()"></button>
                     <hr>
                     <div class="row py-5">
                         <div class="col col-3"><img src="./images/clients_partner_5-200x202.png" alt="Partner1"></div>
