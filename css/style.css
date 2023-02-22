@@ -115,7 +115,6 @@ header {
 }
 
 .work-col {
-    background-color: #556EED;
     position: relative;
 }
 
@@ -125,6 +124,11 @@ header {
 
 .work-img:hover {
     display: none;
+}
+
+.work-link {
+    background-color: #556EED;
+    height: 285px;
 }
 
 .fa-link {
@@ -229,9 +233,29 @@ header {
 
 footer {
     text-align: center;
+    position: relative;
 }
 
 .foot-icon {
     font-size: 2rem;
     margin: 0 1rem;
+}
+
+.back-btn {
+    position: absolute;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    left: 1400px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: #FFA737;
+    border: 2px solid #FFA737;
+}
+
+.fa-chevron-up {
+    color: white;
 }

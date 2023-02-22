@@ -12,5 +12,11 @@ createApp({
 
             bot_links: ['Home', 'Who we are', 'What we do', 'Where we work', 'Careers', 'Get in touch now']
         }
+    },
+
+    methods: {
+        back_to_top() {
+            document.documentElement.scrollTop = 0;
+        }
     }
 }).mount('#app')
