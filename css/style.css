@@ -114,6 +114,27 @@ header {
     text-align: center;
 }
 
+.work-col {
+    background-color: #556EED;
+    position: relative;
+}
+
+.work-img {
+    width: 100%;
+}
+
+.work-img:hover {
+    display: none;
+}
+
+.fa-link {
+    position: absolute;
+    font-size: 2rem;
+    top: 105px;
+    left: 150px;
+    color: white;
+}
+
 /* PLANS STYLE */
 
 .plans {
@@ -127,6 +148,28 @@ header {
 
 .plan:hover {
     color: #607AFE;
+}
+
+.currency {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.price-tag {
+    display: inline-block;
+    font-size: 3.5rem;
+    color: #556EED;
+}
+
+.price-tag-end {
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.price-end {
+    text-align: left;
+    color: #556EED;
 }
 
 /* NEWS STYLE */
@@ -157,13 +200,29 @@ header {
     background-color: white;
 }
 
+.selector:hover {
+    background-color: black;
+}
+
 /* CONTACT STYLE */
 
 .contact {
+    position: relative;
+}
+
+.background {
     background-image: url(../images/CTA-seo-1.jpg);
     background-size: cover;
+    filter: brightness(40%);
+    height: 55vh;
+    position: relative;
+}
+
+.content {
     text-align: center;
-    filter: grayscale(80%);
+    position: absolute;
+    top: 100px;
+    left: 555px;
 }
 
 /* FOOTER STYLE */
